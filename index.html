@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- canonical url -->
+    <link rel="canonical" href="https://itssofi.dev/">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudioSaturn</title>
+    <link rel="shortcut icon" href="./assets/img/prof.webp" type="ima2ge/x-icon">
+
+    <!-- HTML Meta Tags -->
+    <title>StudioSaturn (Alexander Ramirez Terrones)</title>
+    <meta name="description" content="Frontend Developer form  Mexico">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://itssofi.dev">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="SofiDev (Angela Sofía Osorio)">
+    <meta property="og:description" content="Frontend Developer form  Mexico">
+    <meta property="og:image" content="./assets/img/Sofi-portada.png">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="itssofi.dev">
+    <meta property="twitter:url" content="https://itssofi.dev">
+    <meta name="twitter:title" content="SofiDev (Angela Sofía Osorio)">
+    <meta name="twitter:description" content="Frontend Developer form  Mexico">
+    <meta name="twitter:image" content="./assets/img/Sofi-portada.png">
+
+
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Nanum+Gothic+Coding&display=swap"
+        rel="stylesheet">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ERDGRLBQQL"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-ERDGRLBQQL');
+    </script>
+
+    <!-- css librerias/ cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+
+
+    <!-- CSS ESTYLES -->
+    <link rel="stylesheet" href="./assets/Styles/settings.css">
+    <link rel="stylesheet" href="./assets/Styles/header/header.css">
+    <link rel="stylesheet" href="./assets/Styles/header/toogleRayo.css">
+    <link rel="stylesheet" href="./assets/Styles/menuFlotante/toTop.css">
+    <link rel="stylesheet" href="./assets/Styles/hero/hero.css">
+    <link rel="stylesheet" href="./assets/Styles/hero/social-icon.css">
+    <link rel="stylesheet" href="./assets/Styles/Dividers/divider.css">
+    <link rel="stylesheet" href="./assets/Styles/Dividers/divierBlack.css">
+    <link rel="stylesheet" href="./assets/Styles/button.css">
+    <link rel="stylesheet" href="./assets/Styles/skills.css">
+    <link rel="stylesheet" href="./assets/Styles/tools.css">
+    <link rel="stylesheet" href="./assets/Styles/acerca.css">
+    <link rel="stylesheet" href="./assets/Styles/portfolio.css">
+    <link rel="stylesheet" href="./assets/Styles/formulario.css">
+    <link rel="stylesheet" href="./assets/Styles/frase.css">
+    <link rel="stylesheet" href="./assets/Styles/footer.css">
+    <!-- dark mode -->
+    <link rel="stylesheet" href="./assets/Styles/dark-mode/darkmode.css">
+    <link rel="stylesheet" href="./assets/Styles/dark-mode/darkmode-bg.css">
+</head>
+
+<body>
+    <header class="header" id="header">
+
+        <a class="header__link " href="/index.html">
+            <p class="header__logo logo__dark" id="logo">@le<span class="span__dark" id="span">Dev</span></p>
+        </a>
+
+        <!-- Menu Desktop -->
+        <nav class="menu-desktop">
+            <ul class="menu__contenido">
+                <li class="menu__list "><a class="menu__link" href="https://www.radiosdelperu.pe/radio-studio-saturn" 
+                       >Radio</a></li>
+                <li class="menu__list"><a class="menu__link" href="https://atom.bio/saturnstudio">Admisión 2024</a></li>
+                <li class="menu__list"><a class="menu__link" href="https://api.whatsapp.com/send?phone=51958749435&text=M%C3%A1s%20info...">Servicio Streaming</a></li>
+                <li class="menu__list"><a class="menu__link" href="https://www.atom.bio/saturnstudioo" target="_blank">Princess</a></li>
+            </ul>
+            <div class="menu__icons__desktop">
+                <div id="dark-mode_container" class="dark-mode_container" >
+                    <i class="bi bi-lightning-charge desktop-rayo" data-toogle></i>
+                </div>
+            </div>
+        </header>
+    <!-- menu movil (hamburguesa) -->
+    <button class="panel-btn hamburger hamburger--emphatic" type="button" aria-label="menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner" id="hamburguesa"></span>
+        </span>
+    </button>
+    <!-- panel que se depliega lateralmente -->
+    <aside id="panel" class="panel">
+        <nav class="menu-hamburger">
+            <a class="menu-hamburger__link" id="skills-menuA" href="https://www.radiosdelperu.pe/radio-studio-saturn" 
+                >Radio</a>
+            <a class="menu-hamburger__link" id="acercaDe-menuA" href="https://atom.bio/saturnstudio" >Admisión 2024</a>
+            <a class="menu-hamburger__link" id="portafolio-menuA" href="https://api.whatsapp.com/send?phone=51958749435&text=M%C3%A1s%20info...">Servicio Streaming</a>
+            <a class="menu-hamburger__link" id="blog-menuA" href="https://www.atom.bio/saturnstudioo" target="_blank">Princess</a>
+
+            <div class="menu__icons">
+                <div id="dark-mode_container" class="dark-mode_container">
+                    <i class="bi bi-lightning-charge" data-toogle></i>
+                </div>
+
+            </div>
+
+
+        </nav>
+
+    </aside>
+    <div class="menu__flotante">
+        <div class="icon__top-container">
+            <div class="to__top" data-menu="float">
+                <a class="to__top-link" href="#">
+                    <i class="bi bi-arrow-up-circle"></i>
+            </div>
+        </div>
+    </div>
+    <!-- MAIN -->
+    <main>
+        <!-- seccion hero  -->
+        <section class="hero" id="hero">
+            <div class="hero__contenedor">
+                <div class="hero__saludo">
+                    <h1 class="hero__titulo" id="titulo-saludo" data-section="hero" data-value="heroTitulo">Saturn
+                    💿<span class="span__dark" id="span-titulo"> Studios</span> </h1>
+                    <h2 class="hero__subtitulo" id="subtitulo" data-section="hero" data-value="heroSubtitulo">Más que una radio,
+                        somos una familia</h2>
+                </div>
+                <div class="side__container">
+                    <div class="side__profile" id="profile-pic">
+                        <img class="side__img img__ligth" src="./assets/img/prof.webp"
+                            alt="Sofidev profile photo">
+                        <img class="side__img img__dark" src="./assets/img/prof.webp"
+                            alt="Sofidev profile photo">
+                    </div>
+                    <div class="social">
+                        <a class="social__link github icono__dark" href="https://github.com/NeroJavl" target="_blank"
+                            rel="nofollow noreferrer noopener">
+                            <img class="social__icon" src="./assets/svg/github-light.svg" alt="GitHub icon">
+                        </a>
+                        <a class="social__link alura icono__dark"
+                            href="https://www.instagram.com/alepossebon_/" target="_blank"
+                            rel="nofollow noreferrer noopener">
+                            <img class="social__icon" src="./assets/svg/instagram.svg" alt="Aluura icon">
+                        </a>
+
+                        <a class="social__link linkedin icono__dark" href="https://wa.me/914595625"
+                            target="_blank" rel="nofollow noreferrer noopener">
+                            <img class="social__icon " src="./assets/svg/whatsapp.svg" alt="LinkedIn icon">
+                        </a>
+
+                        <a class="social__link platzi icono__dark" href="https://nerojavl.github.io/noesunvirusxd/" target="_blank"
+                            rel="nofollow noreferrer noopener">
+                            <img class="social__icon " src="./assets/svg/code-16.svg" alt="Platzi icon">
+                        </a>
+                        <a class="social__link youtube icono__dark"
+                            href="https://www.youtube.com/@kkjnero" target="_blank"
+                            rel="nofollow noreferrer noopener">
+                            <img class="social__icon " src="./assets/svg/youtube-solid.svg" alt="Youtube icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Divider -->
+            <div class="wrapper">
+                <div class="custom-shape-divider-bottom-1685513857">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                        preserveAspectRatio="none">
+                        <path
+                            d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+                            id="divider1" class="shape-fill"></path>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="skills " id="skills">
+            <h2 class="skills__titulo titulo__dark">Tops en Saturn!</h2>
+
+            <div class="skills__container">
+                <div class="skills__textos__contenido caja__dark">
+                    <div class="terminal_toolbar">
+                        <div class="butt">
+                            <button class="btn btn__red btn-color"></button>
+                            <button class="btn btn__yellow"></button>
+                            <button class="btn btn__green"></button>
+                        </div>
+                        <p class="user">@alepossebon: ~</p>
+                    </div>
+
+                    <div class="skills__parrafos">
+                        <span class="textos__parrafo">
+                            Saturn Studios </span><a class="textos__link textos__parrafo" id="link-oracle"
+                            href="https://github.com/NeroJavl" target="_blank"
+                            rel="nofollow noopener noreferrer">Radio Cajamarca</a>
+                        <span class="textos__parrafo"></span> <a
+                            class="textos__link textos__parrafo" id="link-platzi" href="https://platzi.com/p/SofiDev/"
+                            target="_blank" rel="nofollow noreferrer noopener"></a>
+                        <p class="textos__parrafo"> Música Pop - Rock - 
+                            Top 
+                            
+                        </p>
+                        <p class="textos__parrafo">
+                            Al final de un día dificil, 
+                            siempre encontrarás una rolita que te haga sonreír
+
+                            en nuestra Radio Saturn Studios.
+                        </p>
+                        <div class="skills__descargar">
+                            <a class="link__boton" href="https://zeno.fm/radio/studios-saturn/" download>
+                                <button class="boton titulo__dark"> <span>
+                                        Live</span> <img class="skills__descargar__icono icono__boton"
+                                        src="./assets/svg/live.svg" alt="download button"> </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- SECCION SKILLS -->
+                <div class="skills__cards-container">
+                    <div class="skills__cajas">
+                        <!-- Conteido de cards -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tools">
+            <h2 class="tools__titulo titulo__dark">Ranking Billboard</h2>
+            <div class="tools__caja__slider">
+                <div class="slider">
+                    <div class="tools__cajas" id="">
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/swiii.png" alt="slack">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">Enchanted <br> Top Saturn</span>
+                        </div>
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/lose.png" alt="airtable">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">Lose Control <br> Top 1</span>
+                        </div>
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/things.png" alt="git">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">Beautiful Things<br>Top 2</span>
+                        </div>
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono terminal" src="./assets/svg/ariana.png" alt="terminal">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">We Can't Be Friends (Wait For Your Love)<br>Top 3</span>
+                        </div>
+
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/burr.png" alt="notion">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">Lovin On Me<br>Top 4</span>
+                        </div>
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark " src="./assets/svg/kanye.png" alt="ubuntu">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">Carnival<br>Top 5</span>
+                        </div>
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/beyonce.png"
+                                    alt="vscode">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">Texas Hold 'Em <br>Top 6</span>
+                        </div>
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/zach.png" alt="figma">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">I Remember Everything<br>Top 7</span>
+                        </div>
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/tate.png"
+                                    alt="woocommerce">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">Greedy<br>Top 8</span>
+                        </div>
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/cardi.png" alt="yoast SEO">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">Enough (Miami)<br>Top 9</span>
+                        </div>
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/taylorr.png" alt="xampp">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">Cruel Summer<br>Top 10</span>
+                        </div>
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/djo.png"
+                                    alt="elementor">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">End Of Beginning<br>Top 11</span>
+                        </div>
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/noah.png"
+                                    alt="google analytics">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">Stick Season<br>Top 12</span>
+                        </div>
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/dojacat.png"
+                                    alt="Google search console">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">Agora Hills<br>Top 13</span>
+                        </div>
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/znoo.png" alt="Photoshop">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">Snooze<br>Top 14</span>
+                        </div>
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/flomi.png"
+                                    alt="Illustrator">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">Never Lose Me<br>Top 15</span>
+                        </div>
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/morgan.png" alt="Premier">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">Last Night<br>Top 16</span>
+                        </div>
+                        <!-- Se repite -->
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/satur.png" alt="slack">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">Saturn<br>Top 17</span>
+                        </div>
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/luke.png" alt="airtable">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">Fast Car<br>Top 18</span>
+                        </div>
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/actil.png" alt="git">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">Act II: Date @ 8<br>Top 19</span>
+                        </div>
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono terminal" src="./assets/svg/water.png" alt="terminal">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">Water<br>Top 20</span>
+                        </div>
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark " src="./assets/svg/morgan.png" alt="ubuntu">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">Thinkin' Bout Me<br>Top 21</span>
+                        </div>
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/savage.png"
+                                    alt="vscode">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">Redrum<br>Top 22</span>
+                        </div>
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/sexy.png" alt="Photoshop">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">Get It Sexyy<br>Top 23</span>
+                        </div>
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/bryson.png"
+                                    alt="Illustrator">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">Whatever She Wants<br>Top 24</span>
+                        </div>
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/munilong.png" alt="Premier">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">Made For Me<br>Top 25</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Acerca de Mi -->
+        <section class="acerca" id="aboutMe">
+            <div class="acerca__container">
+                <h2 class="acerca__titulo" id="acercaDeTitulo">Sobre
+                    @  <span class="span__dark" id="span-titulo2"> Saturn</span>  </h2>
+
+                <div class="acerca__caja-cristal caja__dark" id="caja-cristal">
+                    <div class="terminal_toolbar">
+                        <div class="butt">
+                            <button class="btn btn__red btn-color"></button>
+                            <button class="btn btn__yellow"></button>
+                            <button class="btn btn__green"></button>
+                        </div>
+                        <p class="user">@alepossebon: ~</p>
+                    </div>
+                    <div class="acerca__textos" id="textos">
+                        <h3 class="acerca__nombre">
+                            Creador de Studio Saturn?
+                        </h3>
+                        <p class="acerca__texto contenido">
+                            Prefiero no hacer bio solo Diviertete escuchando mi radio, Sigueme en Instagram como @alepossebon_
+                            
+                        </p>
+
+
+                        <h3 class="acerca__nombre contenido">
+                            Ademas de ser una<span class="acerca__span span__dark"> Radio?</span>
+                        </h3>
+                        <p class="acerca__texto contenido">
+                            <span class="span__dark">Saturn! 💙</span> es como una familia donde
+                            
+                            aportamos para ser una radio reconocida en el Top
+                </div>
+                <div class="acerca__contactar">
+                    <a class="link__boton " href="https://api.whatsapp.com/send?phone=51914595625&text=Hola%20Saturn%20%F0%9F%91%8B" target="_blank"
+                        rel="nofollow noreferrer noopener">
+                        <button class="boton titulo__dark"> <span>Escribenos
+                                </span>
+                            <img class="contactar__boton__icono icono__boton" src="./assets/svg/whatsappColor.svg"
+                                alt="mail icon">
+                        </button>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+        <!-- Portafolio -->
+        <section class="portafolio" id="portafolio">
+            <div class="titulo titulo__dark">
+                <h2>Saturn Online 🚀</h2>
+            </div>
+            <div class="portafolio__contenedor" data-card>
+                <!-- Aquí se insertarán las tarjetas generadas dinámicamente -->
+            </div>
+      
+            </div>
+            <!-- Divider -->
+            <div class="wrapper__black">
+                <div class="custom-shape-divider-bottom-1693539436">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                    </svg>
+                </div>
+            </div>
+        </section>  
+
+        <section class="formulario" id="formulario">
+            <div class="titulo titulo__dark">
+                <h2>Unete a la Radio!! </h2>
+            </div>
+            <div class="formulario__container">
+                <div class="formulario__caja caja__dark">
+                    <img class="formulario__img" src="./assets/img/rosa.webp" alt="Ia image portrait">
+    
+                    <form action="https://formsubmit.co/el/jadabu" method="POST" class="formulario__contacto">
+                        <div class="input-container ">
+                            <label class="titulo__dark" for="name">@usuario</label>
+                            <input class="input text__boxes" type="text" name="name"  placeholder="Your name"
+                                title="Only letters and blank spaces are accepted" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+                                required data-type="nombre">
+                            <span class="contact-form-span none" data-span="error">This field is mandatory</span>
+                        </div>
+    
+                        <div class="input-container formulario__inputs">
+                            <label class="input-label titulo__dark" for="email">@email</label>
+                            <input type="email" name="email" id="email" class="input"  placeholder="Email"
+                                title="Invalid email" required data-type="email"
+                                pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$">
+                            <span class="contact-form-span none" data-span="error"> This field is mandatory</span>
+                        </div>
+    
+    
+                        <div class="input-container formulario__inputs ">
+                            <label class="titulo__dark" for="mensaje">@mensaje</label>
+                            <textarea class="text__boxes" name="message"  cols="50" rows="7" data-pattern="^.{1,255}$"
+                                data-type="mensaje" placeholder="Your message" required
+                                title="Message cannot exceed 255 characters"></textarea>
+                            <span class="contact-form-span none" data-span="error">This field is mandatory</span>
+                        </div>
+                        <button type="submit" class="formulario__submit boton submit  titulo__dark">...enviar
+                        </button>
+                    </form>
+                    <!-- Loader -->
+                    <div class="contact_form_loader none">
+                        <img src="./assets/svg/three-dots.svg" alt="Cargando">
+                    </div>
+                    <div class="contact__div__form__response none">
+                        <p>Los datos han sido enviados</p>
+                    </div>
+                </div>
+    
+                <div class="side__imgIa">
+                    <img class="Ia__img" src="./assets/img/rosa.webp" alt="Ia image portrait">
+                </div>
+
+            </div>
+        </section>
+
+        <div class="background">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="foooter__cajas">
+                <a class="footer__link " href="/index.html">
+                    <p class="footer__logo logo__dark" id="logo">Studio<span class="span__dark" id="span"> Saturn</span></p>
+                </a>
+            </div>
+            <div class="foooter__cajas">
+                <ul class="footer__caja__links">
+                    <li class="footer__links"><a href="https://www.instagram.com/alepossebon_/" class="footer__link" target="_blank">Instagram</a></li>
+                    <li class="footer__links"><a href="https://vsco.co/aleepossebon/gallery" class="footer__link" target="_blank"  rel="nofollow noreferrer noopener" data-section="footer" data-value="cursosYoutube">vsco</a></li>
+                    <li class="footer__links"><a href="https://www.tiktok.com/@alepossebon_" class="footer__link" target="_blank"  rel="nofollow noreferrer noopener" data-section="footer" data-value="cursosPlatzi">TikTok</a></li>
+                    <li class="footer__links"><a href="https://wa.me/914595625" class="footer__link" target="_blank"  rel="nofollow noreferrer noopener" data-section="footer" data-value="cursosAlura">WhatSapp</a></li>
+                </ul>
+            </div>
+            <div class="foooter__cajas">
+                <ul class="footer__caja__iconos">
+                    <li class="footer__iconos__lista ">
+                        <a href="https://zeno.fm/radio/studio-saturn/" rel="nofollow noreferrer noopener" >
+                            <img class="footer__iconos mail__footer icono__dark" src="./assets/svg/faces.svg" alt="Radio icon">
+                        </a>
+                    </li>
+                    <li class="footer__iconos__lista ">
+                        <a href="https://pin.it/7BdCIS8AP" target="_blank"  rel="nofollow noreferrer noopener">
+                            <img class="footer__iconos linkedin__footer icono__dark" src="./assets/svg/pinterest.svg" alt="Linkedin icon">
+                        </a>
+                    </li>
+                    <li class="footer__iconos__lista ">
+                        <a href="https://github.com/NeroJavl" target="_blank"  rel="nofollow noreferrer noopener">
+                            <img class="footer__iconos  icono__dark"  src="./assets/svg/social_49630.png" alt="github icon">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+<script src="./modules.js" type="module"></script>
+</html>
